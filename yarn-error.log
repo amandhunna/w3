@@ -1,0 +1,42 @@
+Arguments: 
+  /Users/amanjot.singh/.nvm/versions/node/v16.15.1/bin/node /Users/amanjot.singh/.nvm/versions/node/v16.15.1/bin/yarn add -D hardhat
+
+PATH: 
+  /Users/amanjot.singh/.nvm/versions/node/v16.15.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin:/opt/homebrew/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://repository-private-363209999838.d.codeartifact.us-west-2.amazonaws.com/npm/aidash-ui-components/hardhat: Unauthenticated: request did not include an Authorization header. Please provide your credentials.
+      at Request.params.callback [as _callback] (/Users/amanjot.singh/.nvm/versions/node/v16.15.1/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/Users/amanjot.singh/.nvm/versions/node/v16.15.1/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/Users/amanjot.singh/.nvm/versions/node/v16.15.1/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:527:28)
+      at Gunzip.<anonymous> (/Users/amanjot.singh/.nvm/versions/node/v16.15.1/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:641:28)
+      at Gunzip.emit (node:events:527:28)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "w3",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "amandhunna-aidash <amanjot.singh@aidash.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
